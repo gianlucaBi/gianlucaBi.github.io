@@ -219,6 +219,13 @@ li p, dd p {
 	margin-bottom: 0.3em;
 }
 
+ol li { 						/*  Gian: change spacing in ordered lists (i.e. enumerate) */
+  margin: 17px 0;
+}
+
+ul li { 						/*  Gian: change spacing in unordered lists (i.e. itemize) */
+  margin: 10px 0;
+}
 
 ol ol {
 	list-style-type: lower-alpha;
