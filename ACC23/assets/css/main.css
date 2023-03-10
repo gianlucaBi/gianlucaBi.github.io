@@ -2471,10 +2471,12 @@ input, select, textarea {
 			margin: 0;
 			clear: left;
 			float: left;
+			text-align: left;
 		}
 
 		dl.alt dd {
 			margin: 0 0 0.85em 5.5em;
+			text-align: left;
 		}
 
 		dl.alt:after {
