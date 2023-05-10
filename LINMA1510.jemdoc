@@ -1,0 +1,54 @@
+# jemdoc: menu{MENU}{LINMA1510.html}, notime
+== Gianluca Bianchin -- LINMA1510: Linear Control
+
+This is the public website for the Université catholique de Louvain course LINMA1510 "Linear Control". This page is unofficial and for informational purposes only. Enrolled students should consult the course website hosted on 
+[https://uclouvain.be/cours-2022-linma1510 Moodle].
+
+
+== Course description
+This course will cover fundamental aspects of modern control theory. The course is organized into two main parts. 
+- Frequency-domain tools for the analysis of linear systems: topics include transfer functions, step response specifications, pole locations, PID control, BIBO stability and internal stability notions, the Routh–Hurwitz test, Bode and Nyquist diagrams, and control design using frequency response tools. 
+- Time-domain tools for the analysis of linear time-varying systems: topics include canonical forms, the matrix exponential, Lyapunov stability analysis, BIBO stability, Controllability, Observability, and formulas for state-feedback pole placement. 
+
+
+== Laboratory
+The class will include four laboratory sessions designed to practice the theoretical concepts seen in the course. The sessions include three experimental setups and one virtual laboratory to practice the use of Simulink.
+
+== Exercise sessions
+The exercise sessions will cover exercise sets supervised by a TA to help practice the theoretical concepts seen in class.
+
+
+== Tentative schedule
+~~~
+{}{table}{Tentative schedule}
+Week | Description ||
+||
+1 | Course introduction & system modeling ||
+2 | Laplace transform review & dynamic response ||
+3 | PID control & stability notions ||
+4 | Frequency response tools (Bode and Nyquist plots)||
+5 | Control synthesis via frequency response methods ||
+6 | CT State-space models ||
+7 | Jordan forms, nonlinear systems ||
+8 | DT State-space models ||
+9 | Lyapunov stability ||
+10 | Advanced stability tools ||
+11 | Controllability and observability ||
+12 | State feedback and pole placement ||
+13 | Advanced control objectives via state feedback 
+~~~
+
+
+== Learning objectives
+
+At the end of the course, the student will be able to:
+- Design control systems based on linear models.
+- Design of control schemes that meet specifications related to stability, transient and steady-state performance (accuracy), and robustness. 
+- Design P, PI, and PID regulators.
+- Use software to design controllers.
+- Implement closed-loop control system in laboratory experiments under conditions similar to those in industrial applications.
+
+
+== Textbooks
+- G. F. Franklin, J. D. Powell, A. Emami-Naeini. Feedback control of dynamic systems. Prentice Hall, 8th ed,2019.
+- J. P. Hespanha. Linear Systems Theory. Princeton University Press, 2nd ed., 2018.

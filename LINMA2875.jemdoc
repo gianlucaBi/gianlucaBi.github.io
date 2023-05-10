@@ -1,0 +1,59 @@
+# jemdoc: menu{MENU}{LINMA2875.html}, notime
+== Gianluca Bianchin -- LINMA2875: System identification
+
+This is the public website for the Université catholique de Louvain course LINMA2875 "System identification". This page is unofficial and for informational purposes only. Enrolled students should consult the course website hosted on 
+[https://uclouvain.be/cours-2022-linma2875 Moodle].
+
+
+== Course description
+This course is an introduction to system identification, which consists in finding an appropriate representation of a dynamic system using historical data. It will cover some of the main parametric and nonparametric methods for identifying dynamical systems, properties of signals, and model classes that are relevant for system identification. Identification projects are be given to students to apply and implement the techniques learned techniques.
+
+
+
+== Laboratory
+The class will include two laboratory experiments designed to practice the theoretical concepts seen in the course. 
+
+
+== Exercise sessions
+The exercise sessions will cover exercise sets supervised by a TA to help practice the theoretical concepts seen in class.
+
+
+== Tentative schedule
+~~~
+{}{table}{Tentative schedule}
+Week | Description ||
+||
+1 | Course introduction & system modeling ||
+2 | Laplace transform review & dynamic response ||
+3 | PID control & stability notions ||
+4 | Frequency response tools (Bode and Nyquist plots)||
+5 | Control synthesis via frequency response methods ||
+6 | CT State-space models ||
+7 | Jordan forms, nonlinear systems ||
+8 | DT State-space models ||
+9 | Lyapunov stability ||
+10 | Advanced stability tools ||
+11 | Controllability and observability ||
+12 | State feedback and pole placement ||
+13 | Advanced control objectives via state feedback 
+~~~
+
+
+== Learning objectives
+
+At the end of the course, the student will be able to:
+- Recognize and formulate system identification problems.
+- Propose and implement a system identification procedure.
+- Identify a dynamic system with the help of computer software (Matlab).
+- Validate the obtained model and compare different model choices.
+- Design an experiment to identify a simple system.
+- Develop a deeper understanding if necessary to solve more complex identification problems.
+
+
+== Textbooks
+- L. Ljung. System Identification: Theory for the User. Prentice Hall, 1999.
+- T. Söderström and P. Stoica. System identification. Prentice Hall, 1989.
+
+
+
+

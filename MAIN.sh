@@ -5,3 +5,5 @@ jemdoc publications.jemdoc 															# This line compiles the publications 
 jemdoc researchTopics.jemdoc 														# This line compiles the research topics jemdoc file
 jemdoc software.jemdoc 																# This line compiles the software jemdoc  file
 jemdoc teaching.jemdoc 																# This line compiles the teaching jemdoc  file
+jemdoc LINMA1510.jemdoc 																
+jemdoc LINMA2875.jemdoc 																
