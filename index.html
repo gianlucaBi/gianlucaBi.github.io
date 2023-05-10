@@ -2,77 +2,100 @@
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Gianluca Bianchin</title>
+<link rel="icon" href="./images/icon.png">
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--- <title>Gianluca Bianchin</title> --->
+<title>jemdoc + new design</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
 </head>
 <body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">Gianluca Bianchin</div>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<div id="header-icon-container" >
+<a href="index.html"><img src="favicon.ico" alt="" style="width: 100%; height: 100%; position: center; padding:0px; margin: 0px;"></a>
+</div>
+<div id="header-text-container">
+<a href="index.html">Gianluca Bianchin</a>
+</div>
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout">
+<div id="layout-menu-container">
+<div id="layout-menu">
+<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
 <div class="menu-item"><a href="index.html" class="current">Home</a></div>
 <div class="menu-category">Research</div>
+<div class="menu-item"><a href="research_topics.html">Research&nbsp;Topics</a></div>
 <div class="menu-item"><a href="publications.html">Publications</a></div>
-<div class="menu-item"><a href="researchTopics.html">Research&nbsp;Topics</a></div>
 <div class="menu-item"><a href="software.html">Software</a></div>
+<div class="menu-item"><a href="prospective_students.html">Prospective&nbsp;Students</a></div>
+<div class="menu-item"><a href="presentations.html">Presentations</a></div>
 <div class="menu-category">Teaching</div>
 <div class="menu-item"><a href="LINMA1510.html">Linear&nbsp;control</a></div>
 <div class="menu-item"><a href="LINMA2875.html">System&nbsp;identification</a></div>
-<div class="menu-item"><a href="teaching.html">Misc</a></div>
-<div class="menu-category">Links</div>
+<div class="menu-item"><a href="teaching.html">Miscellaneous</a></div>
+<div class="menu-category">Useful Links</div>
 <div class="menu-item"><a href="OTHER-DOCS/CV_Gianluca_Bianchin.pdf">CV</a></div>
 <div class="menu-item"><a href="https://scholar.google.com/citations?user=n-rGZLQAAAAJ&hl=it">Google&nbsp;Scholar</a></div>
 <div class="menu-item"><a href="https://orcid.org/0000-0002-3234-5535">ORCID</a></div>
 <div class="menu-item"><a href="https://www.webofscience.com/wos/author/record/S-4861-2018">ResearcherID</a></div>
 <div class="menu-item"><a href="http://arxiv.org/a/bianchin_g_1">ArXiv</a></div>
 <div class="menu-item"><a href="https://www.linkedin.com/in/gianluca-bianchin/">LinkedIn</a></div>
-</td>
-<td id="layout-content">
+</div> <!-- <div id="layout-menu"> -->
+</div> <!-- <div id="layout-menu-container"> -->
+<div id="layout-content-container">
+<div id="layout-content">
 <div id="toptitle">
 <h1>Gianluca Bianchin</h1>
 </div>
-<table class="imgtable"><tr><td>
-<img src="PICS/Gianluca-Headshot-4.jpg" alt="picture" width="250px" height="auto" />&nbsp;</td>
-<td align="left"><p>Gianluca Bianchin <br />
+<div id="text-img-container"><div id="img-container">
+<img src="PICS/Gianluca-Headshot-4.jpg" alt="picture" width="260px" height="auto" /></div>
+<div id="text-container"><p>Gianluca Bianchin <br />
 Assistant Professor <br /> 
 <a href="https://uclouvain.be/fr/node/2107" target=&ldquo;blank&rdquo;>Department of Mathematical Engineering</a><br />
 <a href="https://uclouvain.be/fr/node/1991" target=&ldquo;blank&rdquo;>ICTEAM institute</a> <br />
 <a href="https://uclouvain.be/en/index.html" target=&ldquo;blank&rdquo;>University of Louvain</a>  <br /><br />
 Batiment Euler (room A.114)<br />
 4 Avenue George Lemaitre, bt. L4.05.01<br />
-B-1348, Louvain-la-Neuve<br />
-Belgium<br />
+B-1348, Louvain-la-Neuve, Belgium<br />
 Email: <a href="mailto:gianluca.bianchin@uclouvain.be" target=&ldquo;blank&rdquo;>gianluca(dot)bianchin(at)uclouvain(dot)be</a><br />
-Tel: +32 10 47 20 87
-</p>
-</td></tr></table>
-<h2>Recent Updates</h2>
-<p>I am excited to announce our upcoming workshop <a href="https://gianlucabi.github.io/ACC23/" target=&ldquo;blank&rdquo;>Online Optimization for Data-Driven Control</a> that will be offered at the <a href="https://acc2023.a2c2.org" target=&ldquo;blank&rdquo;>2023 American Control Conference</a> in San Diego, which I am co-organizing with Emiliano Dall'Anese, Jorge Cortes, and Miguel Vaquero. 
-</p>
-<h2>Openings</h2>
-<p><font color=red size=+0.5><b> I am actively looking for PhDs/Postdocs to work in the areas of data-driven control, network control, and autonomous transportation! A strong mathematical background is required. To apply, please see <a href="https://euraxess.ec.europa.eu/jobs/71485" target=&ldquo;blank&rdquo;>this opening</a>.</b></font>
-</p>
+Tel: +32 10 47 20 87</p>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>I am excited to announce our upcoming workshop <a href="https://gianlucabi.github.io/ACC23/" target=&ldquo;blank&rdquo;>Online Optimization for Data-Driven Control</a> that will be offered at the <a href="https://acc2023.a2c2.org" target=&ldquo;blank&rdquo;>2023 American Control Conference</a> in San Diego, which I am co-organizing with Emiliano Dall'Anese, Jorge Cortes, and Miguel Vaquero. </p>
+</div></div>
 <h2>Short Bio </h2>
 <p>I am an Assistant Professor in the ICTEAM Institute at the Université Catholique de Louvain. 
 From 2020 to 2022, I was a Postdoctoral Scholar in the <a href="https://www.colorado.edu/ecee/" target=&ldquo;blank&rdquo;>Department of Electrical, Computer, and Energy Engineering</a> at the University of Colorado Boulder.
-I completed the Ph.D. degree in Mechanical Engineering at the <a href="https://www.me.ucr.edu" target=&ldquo;blank&rdquo;>University of California Riverside</a> in 2020. Before joining UC Riverside, I received an M.Sc. degree in Controls Engineering and a B.Sc. degree in Information Engineering from the <a href="https://www.unipd.it/en/" target=&ldquo;blank&rdquo;>University of Padova</a> in 2014 and 2012, respectively.
-</p>
+I completed the Ph.D. degree in Mechanical Engineering at the <a href="https://www.me.ucr.edu" target=&ldquo;blank&rdquo;>University of California Riverside</a> in 2020. Before joining UC Riverside, I received an M.Sc. degree in Controls Engineering and a B.Sc. degree in Information Engineering from the <a href="https://www.unipd.it/en/" target=&ldquo;blank&rdquo;>University of Padova</a> in 2014 and 2012, respectively.</p>
 <h2>Research Interests </h2>
-<p>My main research interests are in the modeling, analysis, and control of large-scale interconnected systems, with an application focus on transportation networks.
-</p>
-<p>Topics of current interest:
-</p>
+<p>My main research interests are in the modeling, analysis, and control of large-scale interconnected systems, with an application focus on transportation networks.</p>
+<p>Topics of current interest:</p>
 <ul>
-<li><p>Use of optimization algorithms for the control of dynamical systems
-</p>
+<li><p>Use of optimization algorithms for the control of dynamical systems</p>
 </li>
-<li><p>Control of Mobility-on-Demand systems and transportation networks
-</p>
+<li><p>Control of Mobility-on-Demand systems and transportation networks</p>
 </li>
-<li><p>Security in cyber-physical systems
-</p>
+<li><p>Security in cyber-physical systems</p>
 </li>
 </ul>
 <h2>Spotlight on Recent Papers</h2>
@@ -101,61 +124,70 @@ I completed the Ph.D. degree in Mechanical Engineering at the <a href="https://w
 </div>
 <h2>Recent News</h2>
 <ul>
-<li><p>[Mar 23] In our recent paper &ldquo;<a href="PAPERS/GB-23-lcss.pdf" target=&rdquo;blank&ldquo;>Data-Driven Exact Pole Placement for Linear Systems</a>&rdquo; we show that the closed-loop poles of a linear system can be placed exactly at arbitrary locations without relying on any model description but by using only finite-length trajectories generated by the open-loop system!
-</p>
+<li><p>[Mar 23] In our recent paper &ldquo;<a href="PAPERS/GB-23-lcss.pdf" target=&rdquo;blank&ldquo;>Data-Driven Exact Pole Placement for Linear Systems</a>&rdquo; we show that the closed-loop poles of a linear system can be placed exactly at arbitrary locations without relying on any model description but by using only finite-length trajectories generated by the open-loop system!</p>
 </li>
-<li><p>[Sept 22] My <a href="https://www.colorado.edu/ecee/2022/09/16/former-ecee-postdoc-i-aim-be-effective-engaging-and-inspiring-educator" target=&ldquo;blank&rdquo;>interview</a> for the CU Boulder College of Engineering is a great summary of two amazing years spent at CU and a farewell to the beautiful Boulder, CO
-</p>
+<li><p>[Sept 22] My <a href="https://www.colorado.edu/ecee/2022/09/16/former-ecee-postdoc-i-aim-be-effective-engaging-and-inspiring-educator" target=&ldquo;blank&rdquo;>interview</a> for the CU Boulder College of Engineering is a great summary of two amazing years spent at CU and a farewell to the beautiful Boulder, CO</p>
 </li>
-<li><p>[Aug 22] In our recent paper &ldquo;<a href="PAPERS/GB-MV-JC-ED-22-tac.pdf" target=&rdquo;blank&ldquo;>k-Dimensional Agreement in Multiagent Systems</a>&rdquo; we study how a group of distributed agents can compute k independent weighted means of a common vector by running a single distributed algorithm. We hope this algorithm will be utilized in distributed computing problems where agents are interested in evaluating k independent functions at a common point!
-</p>
+<li><p>[Aug 22] In our recent paper &ldquo;<a href="PAPERS/GB-MV-JC-ED-22-tac.pdf" target=&rdquo;blank&ldquo;>k-Dimensional Agreement in Multiagent Systems</a>&rdquo; we study how a group of distributed agents can compute k independent weighted means of a common vector by running a single distributed algorithm. We hope this algorithm will be utilized in distributed computing problems where agents are interested in evaluating k independent functions at a common point!</p>
 </li>
-<li><p>[Jun 22] I presented our paper &ldquo;<a href="https://ieeexplore.ieee.org/document/9594083" target=&rdquo;blank&ldquo;>Online Projected Gradient Descent for Stochastic Optimization with Decision-Dependent Distributions</a>&rdquo; at the 2022 American Control Conference in Atlanta, GA
-</p>
+<li><p>[Jun 22] I presented our paper &ldquo;<a href="https://ieeexplore.ieee.org/document/9594083" target=&rdquo;blank&ldquo;>Online Projected Gradient Descent for Stochastic Optimization with Decision-Dependent Distributions</a>&rdquo; at the 2022 American Control Conference in Atlanta, GA</p>
 </li>
-<li><p>[Mar 22] Our recent work &ldquo;<a href="PAPERS/LC-GB-ED-22-ojcsys.pdf" target=&rdquo;blank&ldquo;>Online Optimization of Dynamical Systems With Deep Learning Perception</a>&rdquo; shows that a combination of neural networks and online optimization techniques can be used to control dynamical systems
-</p>
+<li><p>[Mar 22] Our recent work &ldquo;<a href="PAPERS/LC-GB-ED-22-ojcsys.pdf" target=&rdquo;blank&ldquo;>Online Optimization of Dynamical Systems With Deep Learning Perception</a>&rdquo; shows that a combination of neural networks and online optimization techniques can be used to control dynamical systems</p>
 </li>
-<li><p>[Mar 22] When can we safely return to normal from the COVID-19 pandemic? At the beginning of 2021, our work on <a href="https://doi.org/10.1038/s41598-022-08389-5" target=&ldquo;blank&rdquo;>Scientific Reports</a> predicted that a return to normal would not have been safe until the early months of 2022
-</p>
+<li><p>[Mar 22] When can we safely return to normal from the COVID-19 pandemic? At the beginning of 2021, our work on <a href="https://doi.org/10.1038/s41598-022-08389-5" target=&ldquo;blank&rdquo;>Scientific Reports</a> predicted that a return to normal would not have been safe until the early months of 2022</p>
 </li>
-<li><p>[Dec 21] Our paper &ldquo;<a href="http://arxiv.org/abs/2112.03436" target=&rdquo;blank&ldquo;>On matrix-SIR Arino models with linear birth rate, loss of immunity, disease and vaccination fatalities, and their approximations</a>&rdquo; characterizes emerging behaviors of epidemics with non-negligible death rates
-</p>
+<li><p>[Dec 21] Our paper &ldquo;<a href="http://arxiv.org/abs/2112.03436" target=&rdquo;blank&ldquo;>On matrix-SIR Arino models with linear birth rate, loss of immunity, disease and vaccination fatalities, and their approximations</a>&rdquo; characterizes emerging behaviors of epidemics with non-negligible death rates</p>
 </li>
-<li><p>[Dec 21] Our paper &ldquo;<a href="PAPERS/GB-MV-JC-ED-21-cdc.pdf" target=&rdquo;blank&ldquo;>Data-Driven Synthesis of Optimization-Based Controllers for Regulation of Unknown Linear Systems</a>&rdquo; will be presented at the 2021 IEEE Conf. on Decision and Control
-</p>
+<li><p>[Dec 21] Our paper &ldquo;<a href="PAPERS/GB-MV-JC-ED-21-cdc.pdf" target=&rdquo;blank&ldquo;>Data-Driven Synthesis of Optimization-Based Controllers for Regulation of Unknown Linear Systems</a>&rdquo; will be presented at the 2021 IEEE Conf. on Decision and Control</p>
 </li>
 <li><p>[Sep 21] Our paper &ldquo;<a href="https://ieeexplore.ieee.org/document/9540998" target=&rdquo;blank&ldquo;>Time-Varying Optimization of LTI Systems via
-Projected Primal-Dual Gradient Flows</a>&rdquo; was published in the <a href="https://cemse.kaust.edu.sa/tcns" target=&ldquo;blank&rdquo;>IEEE TCNS</a>
-</p>
+Projected Primal-Dual Gradient Flows</a>&rdquo; was published in the <a href="https://cemse.kaust.edu.sa/tcns" target=&ldquo;blank&rdquo;>IEEE TCNS</a></p>
 </li>
-<li><p>[Aug 21] Our paper &ldquo;<a href="https://arxiv.org/abs/2108.13040" target=&rdquo;blank&ldquo;>Online Stochastic Optimization for Unknown Linear Systems: Data-Driven Synthesis and Controller Analysis</a>&rdquo; is available on ArXiv
-</p>
+<li><p>[Aug 21] Our paper &ldquo;<a href="https://arxiv.org/abs/2108.13040" target=&rdquo;blank&ldquo;>Online Stochastic Optimization for Unknown Linear Systems: Data-Driven Synthesis and Controller Analysis</a>&rdquo; is available on ArXiv</p>
 </li>
-<li><p>[Feb 21] Our paper &ldquo;<a href="https://arxiv.org/pdf/2102.09356.pdf" target=&rdquo;blank&ldquo;>Online Optimization of LTI Systems Under Persistent Attacks: Stability, Tracking, and Robustness</a>&rdquo; is available on ArXiv
-</p>
+<li><p>[Feb 21] Our paper &ldquo;<a href="https://arxiv.org/pdf/2102.09356.pdf" target=&rdquo;blank&ldquo;>Online Optimization of LTI Systems Under Persistent Attacks: Stability, Tracking, and Robustness</a>&rdquo; is available on ArXiv</p>
 </li>
-<li><p>[Dec 20] New grant! We received the <a href="https://www.colorado.edu/engineering/2020/12/03/new-healthcare-related-grants-enable-research-pandemics-rheumatoid-arthritis" target=&ldquo;blank&rdquo;>AB Nexus seed grant</a> to investigate the development of control policies for epidemics  
-</p>
+<li><p>[Dec 20] New grant! We received the <a href="https://www.colorado.edu/engineering/2020/12/03/new-healthcare-related-grants-enable-research-pandemics-rheumatoid-arthritis" target=&ldquo;blank&rdquo;>AB Nexus seed grant</a> to investigate the development of control policies for epidemics  </p>
 </li>
-<li><p>[Dec 20] I presented our paper &ldquo;<a href="PAPERS/GB-FP-20-cdc.pdf" target=&rdquo;blank&ldquo;>Routing Apps May Cause Oscillatory Congestions in Traffic Networks</a>&rdquo; at the 2020 IEEE Conf. on Decision and Control
-</p>
+<li><p>[Dec 20] I presented our paper &ldquo;<a href="PAPERS/GB-FP-20-cdc.pdf" target=&rdquo;blank&ldquo;>Routing Apps May Cause Oscillatory Congestions in Traffic Networks</a>&rdquo; at the 2020 IEEE Conf. on Decision and Control</p>
 </li>
 <li><p>[Aug 20] Our paper &ldquo;<a href="https://arxiv.org/pdf/2008.03903.pdf" target=&rdquo;blank&ldquo;>Online Optimization of Switched LTI Systems Using Continuous-Time and
-Hybrid Accelerated Gradient Flows</a>&rdquo; is available on ArXiv
-</p>
+Hybrid Accelerated Gradient Flows</a>&rdquo; is available on ArXiv</p>
 </li>
-<li><p>[March 20] Our paper &ldquo;<a href="https://arxiv.org/pdf/2003.10018.pdf" target=&rdquo;blank&ldquo;>Routing Apps May Deteriorate Stability in Traffic Networks: Oscillating Congestions and Robust Information Design</a>&rdquo; is available on ArXiv
-</p>
+<li><p>[March 20] Our paper &ldquo;<a href="https://arxiv.org/pdf/2003.10018.pdf" target=&rdquo;blank&ldquo;>Routing Apps May Deteriorate Stability in Traffic Networks: Oscillating Congestions and Robust Information Design</a>&rdquo; is available on ArXiv</p>
 </li>
 </ul>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
 <div id="footer">
 <div id="footer-text">
-Page generated 2023-05-10 16:37:54 CEST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
-</div>
-</div>
-</td>
-</tr>
-</table>
+Last edited  on May 10<sup>th</sup> 2023  06:35PM (Time Zone: CEST). </br>
+Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design</a>.
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+</div> <!-- <div id="layout-content-container"> -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
 </body>
 </html>
