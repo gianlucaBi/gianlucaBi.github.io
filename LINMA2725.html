@@ -8,7 +8,7 @@
 <link rel="icon" href="./images/icon.png">
 <link rel="stylesheet" href="main.css" type="text/css" />
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-<!--- <title>LINMA2875: System identification</title> --->
+<!--- <title>LINMA2725: Stochastic optimal control and reinforcement learning</title> --->
 <title>Gianluca Bianchin</title>
 <!-- MathJax -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
@@ -51,8 +51,8 @@ MathJax.Hub.Config({
 <div class="menu-item"><a href="openings.html">Open&nbsp;positions</a></div>
 <div class="menu-category">Teaching</div>
 <div class="menu-item"><a href="LINMA1510.html">Linear&nbsp;control</a></div>
-<div class="menu-item"><a href="LINMA2725.html">Stochastic&nbsp;control&nbsp;&amp;&nbsp;RL</a></div>
-<div class="menu-item"><a href="LINMA2875.html" class="current">System&nbsp;identification</a></div>
+<div class="menu-item"><a href="LINMA2725.html" class="current">Stochastic&nbsp;control&nbsp;&amp;&nbsp;RL</a></div>
+<div class="menu-item"><a href="LINMA2875.html">System&nbsp;identification</a></div>
 <div class="menu-item"><a href="LINMA1731.html">Estimation&nbsp;and&nbsp;prediction</a></div>
 <div class="menu-item"><a href="teaching.html">Other&nbsp;courses</a></div>
 <div class="menu-category">Resources</div>
@@ -71,7 +71,7 @@ MathJax.Hub.Config({
 <div id="layout-content-container">
 <div id="layout-content">
 <div id="toptitle">
-<h1>LINMA2875: System identification</h1>
+<h1>LINMA2725: Stochastic optimal control and reinforcement learning</h1>
 </div>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WFWZ04BT7B"></script>
@@ -82,52 +82,58 @@ MathJax.Hub.Config({
 
   gtag('config', 'G-WFWZ04BT7B');
 </script>
-<p>This is the public website for the Université catholique de Louvain course <a href="https://uclouvain.be/cours-2022-linma2875" target=&ldquo;blank&rdquo;>LINMA2875 System identification</a>. This page is unofficial and for informational purposes only. Enrolled students should consult the course website hosted on 
-<a href="https://uclouvain.be/cours-2022-linma2875" target=&ldquo;blank&rdquo;>Moodle</a>.</p>
+<p>This is the public website for the Université catholique de Louvain course <a href="https://uclouvain.be/cours-2024-linma2725" target=&ldquo;blank&rdquo;>LINMA2725 Stochastic optimal control and Reinforcement Learning</a>. This page is unofficial and for informational purposes only. Enrolled students should consult the course website hosted on <a href="https://moodle.uclouvain.be/course/view.php?id=9769" target=&ldquo;blank&rdquo;>Moodle</a>.</p>
 <h2>Course description</h2>
-<p>This course is an introduction to system identification, which consists in finding an appropriate representation of a dynamic system using historical data. It will cover some of the main parametric and nonparametric methods for identifying dynamical systems, properties of signals, and model classes that are relevant for system identification. Identification projects are be given to students to apply and implement the techniques learned techniques.</p>
+<p>This course covers foudations of stochastic optimal control, which concerns making optimal decisions in uncertain environments. Particular focus is given to Reinforcement Learning (RL) algorithms, which seek to make decisions without a model for the underlying system, but rather learn optimal policies online by observing rewards. Applications are investigated in problems in financial mathematics. </p>
+<h2>Course content</h2>
+<p>The corse covers:</p>
+<ul>
+<li><p>Foundations of probabilities, systems, and optimal control</p>
+</li>
+<li><p>Algorithms for decision-making in deterministic environments</p>
+</li>
+<li><p>Algorithms for decision-making in stochastic environments</p>
+</li>
+<li><p>Control in discrete state-spaces and Markov decision processes</p>
+</li>
+</ul>
 <h2>Learning outcomes</h2>
 <p>At the end of the course, the student will be able to:</p>
 <ul>
-<li><p>Recognize and formulate system identification problems.</p>
+<li><p>Understand the concept of optimizing a stochastic process or system</p>
 </li>
-<li><p>Propose and implement a system identification procedure.</p>
+<li><p>Reformulate practical problems, especially from Financial Mathematics, as mathematical decision problems for stochastic systems</p>
 </li>
-<li><p>Identify a dynamic system with the help of computer software (Matlab).</p>
+<li><p>Utilize the foundational tools from stochastic optimal control to solve the decision problems</p>
 </li>
-<li><p>Validate the obtained model and compare different model choices.</p>
+<li><p>Apply algorithmic tools for the exact or approximate solving of optimal control problems, as well as understand their strengths and limitations and scope of applicability;</p>
 </li>
-<li><p>Design an experiment to identify a simple system.</p>
+<li><p>Understand the concept of exploitation vs exploration and regret minimization</p>
 </li>
-<li><p>Develop a deeper understanding if necessary to solve more complex identification problems.</p>
+<li><p>Provide an exact or approximate solution to stochastic optimal decision problems</p>
 </li>
 </ul>
-<h2>Laboratory</h2>
-<p>The class will include two laboratory experiments designed to practice the theoretical concepts seen in the course. </p>
-<h2>Exercise sessions</h2>
-<p>The exercise sessions will cover exercise sets supervised by a TA to help practice the theoretical concepts seen in class.</p>
+<h2>Project</h2>
+<p>The course includes a project to be realized in groups.</p>
 <h2>Tentative schedule</h2>
 <table id="Tentative schedule">
 <tr class="r1"><td class="c1">Week </td><td class="c2"> Description </td></tr>
 <tr class="r2"><td class="c1"></td></tr>
-<tr class="r3"><td class="c1">1 </td><td class="c2"> Course introduction, motivations, and examples  </td></tr>
-<tr class="r4"><td class="c1">2 </td><td class="c2"> Preliminaries: dynamic sys., stochastic proc. Stochastic processes and noise </td></tr>
-<tr class="r5"><td class="c1">3 </td><td class="c2"> Nonparametric methods </td></tr>
-<tr class="r6"><td class="c1">4 </td><td class="c2"> Regressions &amp; Instrumental variable methods  </td></tr>
-<tr class="r7"><td class="c1">5 </td><td class="c2"> Classes of models, predictors, and identifiability </td></tr>
-<tr class="r8"><td class="c1">6 </td><td class="c2"> Signal properties (1<i>2): information content, persistence of excitation </td></tr>
-<tr class="r9"><td class="c1">7 </td><td class="c2"> Signal properties (2</i>2): general methods </td></tr>
-<tr class="r10"><td class="c1">8 </td><td class="c2"> Consistency  of estimators </td></tr>
-<tr class="r11"><td class="c1">9 </td><td class="c2"> Asymptotic distributions of estimators </td></tr>
-<tr class="r12"><td class="c1">10 </td><td class="c2"> System id in closed loop </td></tr>
-<tr class="r13"><td class="c1">11 </td><td class="c2"> Approaching a system id problem </td></tr>
-<tr class="r14"><td class="c1">12 </td><td class="c2"> Subspace identification methods 
+<tr class="r3"><td class="c1">1 </td><td class="c2"> Foundations of probabilities, system, and optimal control </td></tr>
+<tr class="r4"><td class="c1">2 </td><td class="c2"> LQR, LQG </td></tr>
+<tr class="r5"><td class="c1">3 </td><td class="c2"> Model Predictive Control </td></tr>
+<tr class="r6"><td class="c1">4 </td><td class="c2"> TD-learning and Linear Regression  </td></tr>
+<tr class="r7"><td class="c1">5 </td><td class="c2"> Projected Bellman Equations, Convex Q-learning </td></tr>
+<tr class="r8"><td class="c1">6 </td><td class="c2"> Approximate Value-function and Q-function </td></tr>
+<tr class="r9"><td class="c1">7 </td><td class="c2"> Exploration vs exploitation </td></tr>
+<tr class="r10"><td class="c1">8 </td><td class="c2"> Regret minimization </td></tr>
+<tr class="r11"><td class="c1">9 </td><td class="c2"> Stochastic Gradient Descent &amp; actor-critic 
 </td></tr></table>
 <h2>Textbooks</h2>
 <ul>
-<li><p>L. Ljung. System Identification: Theory for the User. Prentice Hall, 1999.</p>
+<li><p>S. Meyn. Control systems and reinforcement learning. Cambridge University Press, 2022.</p>
 </li>
-<li><p>T. Söderström and P. Stoica. System identification. Prentice Hall, 1989.</p>
+<li><p>D. Bertsekas. Reinforcement learning and optimal control. Athena Scientific, 2019.</p>
 </li>
 </ul>
 </div> <!-- <div id="layout-content"> -->
