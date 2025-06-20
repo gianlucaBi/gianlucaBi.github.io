@@ -85,9 +85,9 @@ MathJax.Hub.Config({
 
   gtag('config', 'G-WFWZ04BT7B');
 </script>
-<div id="text-img-container"><div id="img-container">
-<img src="./PICS/Balboas.jpg" alt="" width="1000px" /></div>
-<div id="text-container"></div></div>
+<p>
+<img src="./RoboRing/balboa_balancing.gif" alt="Animated GIF" />
+</p>
 <h2>The RoboRing project</h2>
 <p>The RoboRing is an educational and research-development robotic platform at UCLouvain. The platform consists of a dozen <a href="https://www.pololu.com/product/3575" target=&ldquo;blank&rdquo;>Balboa 32U4</a> balancing robots, capable of self-balancing, navigating, and complete group tasks. </p>
 <h2>Resources</h2>
@@ -99,23 +99,80 @@ MathJax.Hub.Config({
 <li><p>This <a href="https://github.com/AurelienSoenen/Balboa32U4" target=&ldquo;blank&rdquo;>repository</a> implements a controller for self-balancing. </p>
 </li>
 </ul>
+<h2>Functionalities</h2>
+<p>
+<div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: top;">
+<div style="width: 250px; text-align: center;">
+<img class="paper-preview" src="RoboRing/RPi0-Balboa.jpg" alt="Slides" style="width: 250px; height: auto;">
+Each robot integrates a Raspberry Pi Zero 2W (center) for processing, a
+Decawave DWM1001 (right) for localizartion, and an OLED screen (left)
+</div>
+
+<div style="width: 250px; text-align: center;">
+<img class="paper-preview" src="RoboRing/decawave.jpg" alt="Slides" style="width: 215px; height: auto;">
+Decawave DWM1001 used as anchor for localization
+</div>
+
+<div style="width: 250px; text-align: center;">
+<video width="250" controls>
+<source src="RoboRing/Balancing.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+Self-balancing
+</div>
+</div>
+
+</p>
+<p>
+<div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: top;">
+
+<div style="width: 400px; text-align: center;">
+<video width="400" controls>
+<source src="RoboRing/balancinggroup.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+Group balancing
+</div>
+
+<div style="width: 400px; text-align: center;">
+<video width="400" controls>
+<source src="RoboRing/standup_3.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+Standup
+</div>
+
+<div style="width: 400px; text-align: center;">
+<video width="400" controls>
+<source src="RoboRing/synchro.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+Clock synchronization
+</div>
+
+<div style="width: 400px; text-align: center;">
+<video width="400" controls>
+<source src="RoboRing/unicast.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+Unicast communication
+</div>
+
+</div>
+</p>
+<h2>Brief description of the available modules</h2>
+<p>Each agent is based on the Balboa 32U4 self-balancing robot, developed by the company Pololu. It includes
+differential wheels, encoders, an IMU, magnetometer, and an ATMega32U4 MCU. It offers expansion features such as level shifters, GPIO extenders, etc. This robot serves as the basis for each agent in our swarm.</p>
+<p>Each Balboa robot is coupled with a Raspberry Pi, forming an autonomous swarm agent.
+The Balboa is responsible for low-level operations such as motor control, LED signaling,
+button handling, and sensor access. In contrast, the Raspberry Pi handles high-level
+tasks including swarm communication, algorithm execution, and data logging.</p>
+<p>The Decawave DWM1001-DEV system is used for localization. Each Decawave onboard module is composed
+of an UWB antenna, a microprocessor (Nordic nRF52832) and a J-Link allowing us to
+program the microprocessor.</p>
 <h2>Acknowledgments</h2>
 <p>
 <div id="member-container">
-<div id="member">
-<img src="GROUP-PICS/FrancoisWielant.jpg">
-<p>
-<b>François Wielant</b></br>
-Lab technician
-</p>
-</div>
-<div id="member">
-<img src="GROUP-PICS/AurelienSoenen.jpg">
-<p>
-<b>Aurélien Soenen</b></br>
-Ms Student </br> 2023-24
-</p>
-</div>
 <div id="member">
 <img src="GROUP-PICS/RomainEnglebert.jpg">
 <p>
@@ -130,13 +187,27 @@ Ms Student </br> 2024-25
 Ms Student (UniBo)</br> 2024-25
 </p>
 </div>
+<div id="member">
+<img src="GROUP-PICS/AurelienSoenen.jpg">
+<p>
+<b>Aurélien Soenen</b></br>
+Ms Student </br> 2023-24
+</p>
+</div>
+<div id="member">
+<img src="GROUP-PICS/FrancoisWielant.jpg">
+<p>
+<b>François Wielant</b></br>
+Lab technician
+</p>
+</div>
 </div>
 </p>
 </div> <!-- <div id="layout-content"> -->
 <div id="footer-container">
 <div id="footer">
 <div id="footer-text">
-Last edited  on May 18<sup>th</sup> 2025  04:24PM (Time Zone: CEST). </br>
+Last edited  on June 20<sup>th</sup> 2025  04:27PM (Time Zone: CEST). </br>
 </div> <!-- <div id="footer-text"> -->
 </div> <!-- <div id="footer"> -->
 </div> <!-- <div id="footer-container"> -->
