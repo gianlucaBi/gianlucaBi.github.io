@@ -8,7 +8,7 @@
 <link rel="icon" href="./images/icon.png">
 <link rel="stylesheet" href="main.css" type="text/css" />
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-<!--- <title>The RoboRing at UCLouvain</title> --->
+<!--- <title>LINMA2222: Stochastic optimal control and reinforcement learning</title> --->
 <title>Gianluca Bianchin</title>
 <!-- MathJax -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
@@ -49,7 +49,7 @@ MathJax.Hub.Config({
 <div class="menu-item"><a href="group.html">Group</a></div>
 <div class="menu-item"><a href="publications.html">Publications</a></div>
 <div class="menu-item"><a href="presentations.html">Presentations</a></div>
-<div class="menu-item"><a href="roboRing.html" class="current">The&nbsp;RoboRing</a></div>
+<div class="menu-item"><a href="roboRing.html">The&nbsp;RoboRing</a></div>
 <div class="menu-item"><a href="openings.html">Open&nbsp;positions</a></div>
 <div class="menu-category">Teaching</div>
 <div class="menu-item"><a href="LINMA1510.html">Linear&nbsp;control</a></div>
@@ -74,7 +74,7 @@ MathJax.Hub.Config({
 <div id="layout-content-container">
 <div id="layout-content">
 <div id="toptitle">
-<h1>The RoboRing at UCLouvain</h1>
+<h1>LINMA2222: Stochastic optimal control and reinforcement learning</h1>
 </div>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WFWZ04BT7B"></script>
@@ -85,127 +85,65 @@ MathJax.Hub.Config({
 
   gtag('config', 'G-WFWZ04BT7B');
 </script>
-<p>
-<img src="./RoboRing/balboa_balancing.gif" alt="Animated GIF" style="max-width: 100%; w: auto;" />
-</p>
-<h2>The RoboRing project</h2>
-<p>The RoboRing is an educational and research-development robotic platform at UCLouvain. The platform consists of a dozen <a href="https://www.pololu.com/product/3575" target=&ldquo;blank&rdquo;>Balboa 32U4</a> balancing robots, capable of self-balancing, navigating, and complete group tasks. </p>
-<h2>Resources</h2>
+<p>This is the public website for the Université catholique de Louvain course <a href="https://uclouvain.be/cours-2024-linma2222" target=&ldquo;blank&rdquo;>LINMA2222 Stochastic optimal control and Reinforcement Learning</a>. This page is unofficial and for informational purposes only. Enrolled students should consult the course website hosted on <a href="https://moodle.uclouvain.be/course/view.php?id=9769" target=&ldquo;blank&rdquo;>Moodle</a>.</p>
+<h2>Course description</h2>
+<p>This course covers foudations of stochastic optimal control, which concerns making optimal decisions in uncertain environments. Particular focus is given to Reinforcement Learning (RL) algorithms, which seek to make decisions without a model for the underlying system, but rather learn optimal policies online by observing rewards. Applications are investigated in problems in financial mathematics. </p>
+<h2>Course content</h2>
+<p>The corse covers:</p>
 <ul>
-<li><p>A dynamical model of the Balboa robot as a pendulum can be found <a href="OTHER-DOCS/LINMA1510_LAB4.pdf" target=&ldquo;blank&rdquo;>here</a> or at this <a href="OTHER-DOCS/Thesis_AurelienSoenen.pdf" target=&ldquo;blank&rdquo;>Master's thesis</a>. For the code, see this <a href="https://github.com/AurelienSoenen/Balboa32U4" target=&ldquo;blank&rdquo;>repository</a> </p>
+<li><p>Foundations of probabilities, systems, and optimal control</p>
 </li>
-<li><p>For the communication and multi-agent aspects of the platform, see this <a href="OTHER-DOCS/Thesis_RomainEnglebert.pdf" target=&ldquo;blank&rdquo;>Master's thesis</a>. For the code, see this <a href="https://github.com/trebelge0/Balboa_network" target=&ldquo;blank&rdquo;>repository</a></p>
+<li><p>Algorithms for decision-making in deterministic environments</p>
+</li>
+<li><p>Algorithms for decision-making in stochastic environments</p>
+</li>
+<li><p>Control in discrete state-spaces and Markov decision processes</p>
 </li>
 </ul>
-<h2>Functionalities</h2>
-<p>
-<div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: top;">
-<div style="width: 250px; text-align: center;">
-<img class="paper-preview" src="RoboRing/RPi0Balboa.JPG" alt="Image" style="width: 250px; height: auto;">
-Each robot integrates a Raspberry Pi Zero 2W (center) for processing, a
-Decawave DWM1001 (right) for localizartion, and an OLED screen (left)
-</div>
-
-<div style="width: 250px; text-align: center;">
-<img class="paper-preview" src="RoboRing/decawave.jpg" alt="Image" style="width: 215px; height: auto;">
-Decawave DWM1001 used as anchor for localization
-</div>
-
-<div style="width: 250px; text-align: center;">
-<video width="250" controls>
-<source src="RoboRing/Balancing.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-Self-balancing
-</div>
-</div>
-
-</p>
-<p>
-<div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: top;">
-
-<div style="width: 400px; text-align: center;">
-<video width="400" controls>
-<source src="RoboRing/balancinggroup.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-Group balancing
-</div>
-
-<div style="width: 400px; text-align: center;">
-<video width="400" controls>
-<source src="RoboRing/standup_3.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-Standup
-</div>
-
-<div style="width: 400px; text-align: center;">
-<video width="400" controls>
-<source src="RoboRing/synchro.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-Clock synchronization
-</div>
-
-<div style="width: 400px; text-align: center;">
-<video width="400" controls>
-<source src="RoboRing/unicast.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-Unicast communication
-</div>
-
-</div>
-</p>
-<h2>Brief description of the available modules</h2>
-<p>Each agent is based on the Balboa 32U4 self-balancing robot, developed by the company Pololu. It includes
-differential wheels, encoders, an IMU, magnetometer, and an ATMega32U4 MCU. It offers expansion features such as level shifters, GPIO extenders, etc. This robot serves as the basis for each agent in our swarm.</p>
-<p>Each Balboa robot is coupled with a Raspberry Pi, forming an autonomous swarm agent.
-The Balboa is responsible for low-level operations such as motor control, LED signaling,
-button handling, and sensor access. In contrast, the Raspberry Pi handles high-level
-tasks including swarm communication, algorithm execution, and data logging.</p>
-<p>The Decawave DWM1001-DEV system is used for localization. Each Decawave onboard module is composed
-of an UWB antenna, a microprocessor (Nordic nRF52832) and a J-Link allowing us to
-program the microprocessor.</p>
-<h2>Acknowledgments</h2>
-<p>
-<div id="member-container">
-<div id="member">
-<img src="GROUP-PICS/RomainEnglebert.jpg">
-<p>
-<b>Romain Englebert</b></br>
-Ms Student </br> 2024-25
-</p>
-</div>
-<div id="member">
-<img src="GROUP-PICS/GiuseppeSpeciale.jpg">
-<p>
-<b>Giuseppe Speciale</b></br>
-Ms Student (UniBo)</br> 2024-25
-</p>
-</div>
-<div id="member">
-<img src="GROUP-PICS/AurelienSoenen.jpg">
-<p>
-<b>Aurélien Soenen</b></br>
-Ms Student </br> 2023-24
-</p>
-</div>
-<div id="member">
-<img src="GROUP-PICS/FrancoisWielant.jpg">
-<p>
-<b>François Wielant</b></br>
-Lab technician
-</p>
-</div>
-</div>
-</p>
+<h2>Learning outcomes</h2>
+<p>At the end of the course, the student will be able to:</p>
+<ul>
+<li><p>Understand the concept of optimizing a stochastic process or system</p>
+</li>
+<li><p>Reformulate practical problems, especially from Financial Mathematics, as mathematical decision problems for stochastic systems</p>
+</li>
+<li><p>Utilize the foundational tools from stochastic optimal control to solve the decision problems</p>
+</li>
+<li><p>Apply algorithmic tools for the exact or approximate solving of optimal control problems, as well as understand their strengths and limitations and scope of applicability;</p>
+</li>
+<li><p>Understand the concept of exploitation vs exploration and regret minimization</p>
+</li>
+<li><p>Provide an exact or approximate solution to stochastic optimal decision problems</p>
+</li>
+</ul>
+<h2>Project</h2>
+<p>The course includes a project to be realized in groups.</p>
+<h2>Tentative schedule</h2>
+<table id="Tentative schedule">
+<tr class="r1"><td class="c1">Week </td><td class="c2"> Description </td></tr>
+<tr class="r2"><td class="c1"></td></tr>
+<tr class="r3"><td class="c1">1 </td><td class="c2"> Foundations of probabilities, system, and optimal control </td></tr>
+<tr class="r4"><td class="c1">2 </td><td class="c2"> LQR, LQG </td></tr>
+<tr class="r5"><td class="c1">3 </td><td class="c2"> Model Predictive Control </td></tr>
+<tr class="r6"><td class="c1">4 </td><td class="c2"> TD-learning and Linear Regression  </td></tr>
+<tr class="r7"><td class="c1">5 </td><td class="c2"> Projected Bellman Equations, Convex Q-learning </td></tr>
+<tr class="r8"><td class="c1">6 </td><td class="c2"> Approximate Value-function and Q-function </td></tr>
+<tr class="r9"><td class="c1">7 </td><td class="c2"> Exploration vs exploitation </td></tr>
+<tr class="r10"><td class="c1">8 </td><td class="c2"> Regret minimization </td></tr>
+<tr class="r11"><td class="c1">9 </td><td class="c2"> Stochastic Gradient Descent &amp; actor-critic 
+</td></tr></table>
+<h2>Textbooks</h2>
+<ul>
+<li><p>S. Meyn. Control systems and reinforcement learning. Cambridge University Press, 2022.</p>
+</li>
+<li><p>D. Bertsekas. Reinforcement learning and optimal control. Athena Scientific, 2019.</p>
+</li>
+</ul>
 </div> <!-- <div id="layout-content"> -->
 <div id="footer-container">
 <div id="footer">
 <div id="footer-text">
-Last edited  on November 12<sup>th</sup> 2025  09:25AM (Time Zone: CET). </br>
+Last edited  on November 12<sup>th</sup> 2025  09:33AM (Time Zone: CET). </br>
 </div> <!-- <div id="footer-text"> -->
 </div> <!-- <div id="footer"> -->
 </div> <!-- <div id="footer-container"> -->
