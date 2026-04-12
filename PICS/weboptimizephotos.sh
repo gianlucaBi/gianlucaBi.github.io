@@ -7,7 +7,7 @@
 mkdir -p ../PICS-webopt
 
 # compress JPG and JPEG
-for f in *.jpg *.jpeg *.JPG; do
+for f in *.jpg *.jpeg *.JPG *.svg; do
   [ -e "$f" ] || continue
   magick "$f" -auto-orient \
   -resize 1400x1400\> -quality 85 -strip -interlace Plane \
